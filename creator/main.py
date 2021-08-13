@@ -1,21 +1,20 @@
 from database_service.clear_db import clear_db
 from utilities.shared_methos import *
-import os
+import os, yaml, owlready
 
+# read all data-sources yaml files and get data sources and their data components
+with open("enterprise-attack/data-sources/attack-data-sources.yaml","r") as datasourcesfile:
+    for data in yaml.safe_load(datasourcesfile):
+        # parent class data source name
+        print(data['name'])
+        # subclasses (data components)
+        for data2 in data['data_components']:
+            print(data2['name'])
+        print("============================================================================")
 
+# somewhere inside attack pattern there will be the relationships (object properties) and properties (data properties) beside classes
 # general initialization - do not delete it
 directory_of_attack_patterns = os.path.join(os.getcwd(), "enterprise-attack\\attack-pattern")
-clear_db()
-
-
-# test for only one file
-# file_handle = open(os.path.join(directory_of_attack_patterns, "attack-pattern--0a3ead4e-6d47-4ccb-854c-a6a4f9d96b22.json"))
-# stix_object = parse(file_handle, allow_custom=True)
-# # print(type(stix_object))
-# # print(len(stix_object.objects[0]['kill_chain_phases']))
-# get_data_sources_of_attack_pattern(stix_object)
-
-
 
 # read all attack-pattern stix files
 # count=0
