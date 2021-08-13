@@ -18,6 +18,7 @@
 <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
 <Prefix name="attack" IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl"/>
 
+<Declaration><ObjectProperty IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#has"/></Declaration>
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-sources"/></Declaration>
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Active Directory"/></Declaration>
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active directory object creation"/></Declaration>
@@ -721,6 +722,9 @@
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#b'Trusted Developer Utilities Proxy Execution'"/></Declaration>
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#b'System Shutdown/Reboot'"/></Declaration>
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#b'COR_PROFILER'"/></Declaration>
+
+<ObjectPropertyDomain><ObjectProperty IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#has"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-pattern"/></ObjectPropertyDomain>
+<ObjectPropertyRange><ObjectProperty IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#has"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-sources"/></ObjectPropertyRange>
 
 
 <SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Active Directory"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-sources"/></SubClassOf>

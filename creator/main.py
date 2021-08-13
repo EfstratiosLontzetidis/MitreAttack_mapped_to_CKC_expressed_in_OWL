@@ -38,7 +38,18 @@ for attackpatternfile in os.listdir(directory_of_attack_patterns):
     # count=count+1
     # print(count)
 
-# print(attackpatternclass.__subclasses__())
+# properties example, in owlready object properties and data properties are the same ( in data -> range = str )
+domainlist=[]
+domainlist.append(attackpatternclass)
+rangelist=[]
+rangelist.append(datasourceclass)
+class has(Property):
+    # domain and range must be lists
+    ontology = attack
+    domain = domainlist
+    range = rangelist
+# print(attackpatternclass)
+
 attack.save(filename="attack.owl")
 
 
