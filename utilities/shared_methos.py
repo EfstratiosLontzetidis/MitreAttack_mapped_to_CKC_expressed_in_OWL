@@ -35,10 +35,10 @@ def get_id_of_attack_pattern(stix_object):
 def get_name_of_attack_pattern(stix_object):
     name = "None"
     try:
-        name = stix_object.objects[0].name
+        name = stix_object.objects[0].name.lstrip()
     except Exception:
         pass
-    return name
+    return name.lstrip()
 
 
 def get_description_of_attack_pattern(stix_object):
