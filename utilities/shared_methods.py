@@ -2,6 +2,13 @@ from stix2 import parse
 
 from database_service.database import ClientDB
 
+def is_subtechnique(stix_object):
+    subtechnique=False
+    try:
+        subtechnique=stix_object.objects[0].x_mitre_is_subtechnique
+    except Exception:
+        pass
+    return subtechnique
 
 def is_revoked(stix_object):
     revoked = False
