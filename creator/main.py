@@ -7,7 +7,7 @@ from owlready import *
 attack = Ontology("https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl")
 
 # att&ck tactics
-attack_tactics = types.new_class("attack-tactics", (Thing,), kwds={"ontology": attack})
+attack_tactics = types.new_class("attack-tactic", (Thing,), kwds={"ontology": attack})
 
 ma_reconnaissance = types.new_class("ma_Reconnaissance", (attack_tactics,), kwds={"ontology": attack})
 resource_development  = types.new_class("ma_Resource_Development", (attack_tactics,), kwds={"ontology": attack})
@@ -25,7 +25,7 @@ exfiltration = types.new_class("ma_Exfiltration", (attack_tactics,), kwds={"onto
 impact = types.new_class("ma_Impact", (attack_tactics,), kwds={"ontology": attack})
 
 # ckc phases
-ckc_phases_class = types.new_class("ckc-phases", (Thing,), kwds={"ontology": attack})
+ckc_phases_class = types.new_class("ckc-phase", (Thing,), kwds={"ontology": attack})
 
 ckc_reconnaissance = types.new_class("ckc_Reconnaissance", (ckc_phases_class,), kwds={"ontology": attack})
 weaponization = types.new_class("ckc_Weaponization", (ckc_phases_class,), kwds={"ontology": attack})
