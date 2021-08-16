@@ -18,7 +18,180 @@
 <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
 <Prefix name="attack" IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl"/>
 
-<Declaration><ObjectProperty IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#skata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ma_Reconnaissance"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Resource_Development"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Initial_Access"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Execution"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Persistence"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Privilege_Escalation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Defense_Evasion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Credential_Access"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Discovery"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Lateral_Movement"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Collection"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ma_Command_and_Control"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Exfiltration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Impact"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc-phases"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc_Reconnaissance"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Weaponization"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Delivery"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Exploitation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Installation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc_Command_and_Control"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Actions_on_Objective"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Active_Directory"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active_directory_object_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active_directory_object_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active_directory_object_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active_directory_credential_request"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active_directory_object_access"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Application_Log"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#application_log_content"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Cloud_Service"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_service_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_service_disable"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_service_enumeration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_service_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Cloud_Storage"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_enumeration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_access"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Cluster"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cluster_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Command"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#command_execution"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Container"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#container_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#container_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#container_enumeration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#container_start"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Drive"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#drive_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#drive_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#drive_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#drive_access"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Driver"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#driver_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#driver_load"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#driver_unload"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#File"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_content"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_access"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Firewall"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#firewall_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#firewall_disable"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#firewall_rule_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#firewall_enumeration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Firmware"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#firmware_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Group"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#group_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#group_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#group_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#group_enumeration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#group_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Image"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#image_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#image_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#image_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#image_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Instance"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_enumeration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_start"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_stop"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Kernel"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#kernel_module_load"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Logon_Session"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#logon_session_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#logon_session_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#logon_session_termination"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Module"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#module_content"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#module_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#module_load"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Named_Pipe"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#named_pipe_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Network_Share"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_share_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_share_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_share_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_share_access"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Network_Traffic"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_traffic_flow"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_traffic_content"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_connection_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Pod"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#pod_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#pod_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#pod_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#pod_enumeration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Process"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#process_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#process_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#process_termination"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#process_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#process_access"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#OS_api_execution"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Scheduled_Job"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#scheduled_job_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#scheduled_job_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#scheduled_job_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#scheduled_job_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Script"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#script_execution"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Sensor_Health"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#host_status"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Service"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#service_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#service_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#service_access"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#service_enumeration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#service_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Snapshot"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#snapshot_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#snapshot_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#snapshot_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#snapshot_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#snapshot_enumeration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#User_Account"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#user_account_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#user_account_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#user_account_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#user_account_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#user_account_authentication"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Volume"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#volume_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#volume_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#volume_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#volume_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#volume_enumeration"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Web_Credential"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#web_credential_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#web_credential_usage"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Windows_Registry"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#windows_registry_key_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#windows_registry_key_deletion"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#windows_registry_key_modification"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#windows_registry_key_access"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#WMI"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#wmi_metadata"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#wmi_creation"/></Declaration>
+<Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#wmi_deletion"/></Declaration>
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-pattern"/></Declaration>
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Windows_Management_Instrumentation"/></Declaration>
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Screen_Capture"/></Declaration>
@@ -572,7 +745,349 @@
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#MSBuild"/></Declaration>
 <Declaration><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#System_Shutdown_Reboot"/></Declaration>
 
-<ObjectPropertyDomain><ObjectProperty IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#skata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-pattern"/></ObjectPropertyDomain>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ma_Reconnaissance"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Resource_Development"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Initial_Access"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Execution"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Persistence"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Privilege_Escalation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Defense_Evasion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Credential_Access"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Discovery"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Lateral_Movement"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Collection"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ma_Command_and_Control"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Exfiltration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Impact"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-tactics"/></SubClassOf>
+
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc_Reconnaissance"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc-phases"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Weaponization"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc-phases"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Delivery"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc-phases"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Exploitation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc-phases"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Installation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc-phases"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc_Command_and_Control"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc-phases"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Actions_on_Objective"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#ckc-phases"/></SubClassOf>
+
+
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Active_Directory"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active_directory_object_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active_directory_object_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active_directory_object_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active_directory_credential_request"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#active_directory_object_access"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Application_Log"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#application_log_content"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Cloud_Service"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_service_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_service_disable"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_service_enumeration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_service_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Cloud_Storage"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_enumeration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cloud_storage_access"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Cluster"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#cluster_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Command"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#command_execution"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Container"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#container_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#container_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#container_enumeration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#container_start"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Drive"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#drive_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#drive_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#drive_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#drive_access"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Driver"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#driver_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#driver_load"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#driver_unload"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#File"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_content"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_access"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#file_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Firewall"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#firewall_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#firewall_disable"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#firewall_rule_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#firewall_enumeration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Firmware"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#firmware_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Group"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#group_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#group_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#group_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#group_enumeration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#group_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Image"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#image_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#image_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#image_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#image_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Instance"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_enumeration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_start"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#instance_stop"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Kernel"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#kernel_module_load"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Logon_Session"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#logon_session_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#logon_session_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#logon_session_termination"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Module"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#module_content"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#module_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#module_load"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Named_Pipe"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#named_pipe_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Network_Share"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_share_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_share_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_share_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_share_access"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Network_Traffic"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_traffic_flow"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_traffic_content"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#network_connection_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Pod"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#pod_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#pod_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#pod_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#pod_enumeration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Process"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#process_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#process_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#process_termination"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#process_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#process_access"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#OS_api_execution"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Scheduled_Job"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#scheduled_job_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#scheduled_job_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#scheduled_job_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#scheduled_job_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Script"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#script_execution"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Sensor_Health"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#host_status"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Service"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#service_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#service_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#service_access"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#service_enumeration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#service_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Snapshot"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#snapshot_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#snapshot_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#snapshot_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#snapshot_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#snapshot_enumeration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#User_Account"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#user_account_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#user_account_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#user_account_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#user_account_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#user_account_authentication"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Volume"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#volume_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#volume_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#volume_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#volume_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#volume_enumeration"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Web_Credential"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#web_credential_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#web_credential_usage"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Windows_Registry"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#windows_registry_key_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#windows_registry_key_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#windows_registry_key_modification"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#windows_registry_key_access"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#WMI"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-source"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#wmi_metadata"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#wmi_creation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
+
+<SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#wmi_deletion"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#data-component"/></SubClassOf>
 
 
 <SubClassOf><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#Windows_Management_Instrumentation"/><Class IRI="https://raw.githubusercontent.com/EfstratiosLontzetidis/AttackOWL/master/attack.owl#attack-pattern"/></SubClassOf>
