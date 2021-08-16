@@ -35,6 +35,14 @@ installation = types.new_class("Installation", (ckc_phases_class,), kwds={"ontol
 ckc_c2 = types.new_class("ckc_Command_and_Control", (ckc_phases_class,), kwds={"ontology": attack})
 actions_on_objective = types.new_class("Actions_on_Objective", (ckc_phases_class,), kwds={"ontology": attack})
 
+ma_reconnaissance.equivalent_to=[ckc_reconnaissance]
+resource_development.equivalent_to=[weaponization]
+initial_access.equivalent_to=[delivery]
+execution.equivalent_to=[exploitation]
+persistence.equivalent_to=[installation]
+ma_c2.equivalent_to=[ckc_c2]
+
+
 # create the class data_sources_class with the OWL name "data-sources" dynamically
 data_sources_class = types.new_class("data-source", (Thing,), kwds={"ontology": attack})
 # create data_component_class with the name of "data-component"
