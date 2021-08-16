@@ -1,6 +1,16 @@
 from stix2 import parse
-
 from database_service.database import ClientDB
+
+dots = ".."
+
+
+def set_global_path(dots):
+    return dots
+
+
+def get_global_path():
+    return dots
+
 
 def is_subtechnique(stix_object):
     subtechnique=False
@@ -9,6 +19,7 @@ def is_subtechnique(stix_object):
     except Exception:
         pass
     return subtechnique
+
 
 def is_revoked(stix_object):
     revoked = False
