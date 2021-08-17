@@ -1,7 +1,7 @@
 from stix2 import parse
 from database_service.database import ClientDB
 
-dots = ".."
+dots = "."
 
 
 def set_global_path(dots):
@@ -71,7 +71,8 @@ def get_description_of_attack_pattern(stix_object):
 def get_kill_chain_phases_of_attack_pattern(stix_object):
     kill_chain_phases = []
     try:
-        kill_chain_phases = stix_object.objects[0]['kill_chain_phases']
+        for x in stix_object.objects[0]['kill_chain_phases']:
+            kill_chain_phases.append(x['phase_name'])
     except Exception:
         pass
     return kill_chain_phases
