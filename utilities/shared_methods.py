@@ -78,6 +78,16 @@ def get_kill_chain_phases_of_attack_pattern(stix_object):
     return kill_chain_phases
 
 
+def get_data_sources_in_list(stix_object):
+    data_sources_list=[]
+    try:
+        data_sources = stix_object.objects[0]['x_mitre_data_sources']
+        for x in range(len(data_sources)):
+            data_sources_list.append(data_sources[x])
+    except Exception:
+        pass
+    return data_sources_list
+
 def get_data_sources_of_attack_pattern(stix_object):
     collection = ClientDB.db['data_sources']
     unique_data_sources = []
