@@ -3,7 +3,7 @@ from stix2 import parse
 from utilities.shared_methods import *
 from collections import *
 
-directory_of_attack_patterns = os.path.join(os.getcwd(), "C:\\Users\\slont\\PycharmProjects\\attacktoowl\\enterprise-attack\\attack-pattern")
+directory_of_attack_patterns = os.path.join(os.getcwd(), "/enterprise-attack/attack-pattern")
 
 same_list=[]
 count=0

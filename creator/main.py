@@ -8,7 +8,9 @@ attack = Ontology("https://raw.githubusercontent.com/EfstratiosLontzetidis/Attac
 # this is used so that we do not have conficts between our PCs. Remove or add a dot.
 set_global_path(".")
 
+# no need to create data sources  but if you want you can add it
 # create_data_sources(attack)
+
 create_attack_patterns(attack)
 
 
