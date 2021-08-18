@@ -1,15 +1,11 @@
 from stix2 import parse
 from database_service.database import ClientDB
 
-dots = "."
-
-
-def set_global_path(dots):
-    return dots
+pathdots = ".."
 
 
 def get_global_path():
-    return dots
+    return pathdots
 
 
 def is_subtechnique(stix_object):
